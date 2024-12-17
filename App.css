@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.pizza-list ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pizza-list li {
+  margin: 20px;
+  text-align: center;
+}
+
+.pizza-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+}
+
+.pizza-image {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.cart {
+  margin-top: 30px;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart li {
+  margin: 5px 0;
+}
